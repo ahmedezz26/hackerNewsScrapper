@@ -181,7 +181,7 @@ uv --version
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/hackernews-analyzer.git
+git clone https://github.com/ahmedezz26/hackerNewsScrapper.git
 cd hackernews-analyzer
 
 # Initialize uv project (if not already done)
