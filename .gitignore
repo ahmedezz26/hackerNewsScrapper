@@ -1,14 +1,63 @@
-# Python-generated files
+# Python
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+*.so
+.Python
 build/
+develop-eggs/
 dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
 wheels/
-*.egg-info
-*.toml
-uv.lock
-.python-version
+*.egg-info/
+.installed.cfg
+*.egg
 
 # Virtual environments
-.venv
+env/
+venv/
+.venv/
+ENV/
+
+# uv specific
+.uv/
+uv.lock
+
+# Environment variables
 .env
+.env.local
+.env.*.local
+
+# Data folders (exclude from git)
+data/raw/
+data/processed/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Python version file (optional - you might want to commit this)
+# .python-version
